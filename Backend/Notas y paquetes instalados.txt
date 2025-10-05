@@ -1,0 +1,9 @@
+1. npm install --save express
+2. npm install --save body-parser  //(convertir formularios a JSON ahora se usa solo express)
+3. npm install --save mongoose (Trabajar con la base de datos)
+4. npm install --save connect-multiparty (trabajar con archivos)
+4. npm install --save validator (validacion de datos)
+4. npm install --save-dev nodemon (para que el server de conexion a bd se ejecute automaticamente.. para usarlo se pone un script (start) en el package.json y se ejecuta con npm start)
+
+
+

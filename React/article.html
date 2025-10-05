@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetacion master frameworks</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="center">
+            <!--Logo-->
+            <div id="logo">
+                <img src="assets/images/react.svg" alt="logotipo" class="app-logo" />
+                <span id="brand">
+                    <strong>Curso</strong>React
+                </span>
+            </div>
+            <!--Menu-->
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="formulario.html">Formulario</a>
+                    </li>
+                    <li>
+                        <a href="#">Pagina1</a>
+                    </li>
+                    <li>
+                        <a href="#">Pagina2</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Limpiar flotados-->
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="center">
+        <section id="content">
+             <div id="articles">
+                 <article class="article-item article-detail">
+                     <div class="image-wrap">
+                         <img src="assets/images/paisaje.jpg" alt="Paisaje">      
+                        </div>
+                        <h1 class="subheader">Articulo de prueba</h1>
+                        <span class="date">
+                            Hace 5 min
+                        </span>
+                        <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur efficitur suscipit. Integer luctus, velit placerat feugiat porttitor, ipsum mauris suscipit libero, eget maximus odio lorem id metus. Morbi suscipit arcu vel dolor aliquet, quis congue lectus fringilla. Donec ultricies nulla eu ex pharetra, vitae ornare ligula condimentum. Cras convallis pellentesque tincidunt. Suspendisse potenti. Quisque varius pulvinar lorem nec faucibus. Curabitur at velit elit. Nullam ut metus at mi efficitur fringilla. Maecenas consectetur metus dui, nec tempus ligula suscipit ac. Vivamus placerat, tortor quis varius ornare, metus velit posuere eros, at suscipit tortor turpis sed lorem. Sed ornare eu tortor ac tempor. Fusce a feugiat est. Nam nec gravida nisi.    
+                     </p>
+                     <p>
+                        In accumsan felis eget tortor rutrum fringilla. Pellentesque sit amet accumsan ipsum. Sed ac lorem nunc. Donec convallis sapien sed metus luctus condimentum non vel enim. Suspendisse in convallis mi. Quisque ornare enim tincidunt odio vehicula cursus sed quis urna. Sed ligula metus, rhoncus ac posuere ac, tempus quis dolor. Sed porttitor nisi ac nulla vulputate egestas sed sed orci. 
+                     </p>
+                     <p>
+                        Donec purus odio, ultrices sit amet hendrerit a, dapibus a augue. Donec sollicitudin interdum lorem, id malesuada tellus consectetur vitae. Nullam id tempor eros. Vestibulum rutrum lectus vitae lacus sodales tempor. Sed et mi at nisi condimentum auctor. In suscipit orci non pharetra accumsan. Aenean auctor lobortis nisi, sit amet aliquet mauris tincidunt ut. Maecenas eros orci, ultrices cursus purus et, consectetur aliquet felis. Etiam at nulla a massa malesuada ultricies sed vel ante. Praesent non nibh at erat facilisis auctor. Quisque sed dignissim risus, vitae dapibus lectus. Aenean tincidunt velit vitae gravida placerat. Nulla lobortis lorem vel lorem interdum, quis vulputate mauris bibendum. Nulla facilisi. Donec enim sapien, ultricies et pulvinar ac, iaculis nec metus. Aenean tristique felis eget augue dapibus rutrum. 
+                     </p>
+                     <a href="#">Leer mas...</a>
+                     <div class="clearfix"></div>
+                 </article>
+             </div>
+            <!--Añadir articulos via JS-->
+
+        </section>
+        <aside id="sidebar">
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Puedes hacer esto: </h3>
+                <a href="#" class="btn btn-success">Crear artículo </a>
+            </div>
+
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Buscador</h3>
+                <p>Encuentra el articulo que buscas</p>
+                    <form>
+                        <input type="text" name="search">
+                        <input type="submit" name="submit" value="Buscar" class="btn">
+
+                    </form>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+    </div>
+    <div id="footer">
+        <div class="center">
+            &copy; Master en Frameworks para Javascript por David Eduardo Gualteros
+        </div>
+    </div>
+</body>
+</html>

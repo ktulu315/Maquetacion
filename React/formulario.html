@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetacion master frameworks</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="center">
+            <!--Logo-->
+            <div id="logo">
+                <img src="assets/images/react.svg" alt="logotipo" class="app-logo" />
+                <span id="brand">
+                    <strong>Curso</strong>React
+                </span>
+            </div>
+            <!--Menu-->
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="formulario.html">Formulario</a>
+                    </li>
+                    <li>
+                        <a href="#">Pagina1</a>
+                    </li>
+                    <li>
+                        <a href="#">Pagina2</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Limpiar flotados-->
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="center">
+        <section id="content">
+            <h1 class="subheader">Formulario</h1>
+            <form class="mid-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos">
+                </div>
+                <div class="form-group">
+                    <label for="bio">Biografía</label>
+                    <textarea name="bio"></textarea>
+                </div>
+                <div class="form-group radiobuttons">
+                    <label for="genero">Genero</label>
+                    <input type="radio" name="genero" value="Hombre"/> Hombre
+                    <input type="radio" name="genero" value="Mujer"/> Mujer
+                    <input type="radio" name="genero" value="Otro"/> Otro
+                </div>
+                <div class="clearfix"></div>
+                <input type="submit" class="btn btn-success" value="enviar"/>
+            </form>
+            
+        </section>
+        <aside id="sidebar">
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Puedes hacer esto: </h3>
+                <a href="#" class="btn btn-success">Crear artículo </a>
+            </div>
+
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Buscador</h3>
+                <p>Encuentra el articulo que buscas</p>
+                    <form>
+                        <input type="text" name="search">
+                        <input type="submit" name="submit" value="Buscar" class="btn">
+
+                    </form>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+    </div>
+    <div id="footer">
+        <div class="center">
+            &copy; Master en Frameworks para Javascript por David Eduardo Gualteros
+        </div>
+    </div>
+</body>
+</html>
