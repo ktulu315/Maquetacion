@@ -350,7 +350,7 @@ var controller = {
                         message: "La imagen no existe: " + error.message
                     });
                 }
-                console.log("res: " + response.sendFile(path.resolve(path_file))); //resuelve la ruta de archivo
+                //console.log("res: " + response.sendFile(path.resolve(path_file))); //resuelve la ruta de archivo
                 return response.sendFile(path.resolve(path_file)); //envia el archivo
             });
         }
